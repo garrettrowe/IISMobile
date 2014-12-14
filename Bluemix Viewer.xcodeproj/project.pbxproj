@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C50C5D01A3E1308007B4383 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C50C5CF1A3E1308007B4383 /* AppDelegate.swift */; };
+		3C50C5D21A3E1308007B4383 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C50C5D11A3E1308007B4383 /* ViewController.swift */; };
+		3C50C5D51A3E1309007B4383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C50C5D31A3E1309007B4383 /* Main.storyboard */; };
+		3C50C5D71A3E1309007B4383 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C50C5D61A3E1309007B4383 /* Images.xcassets */; };
+		3C50C5DA1A3E1309007B4383 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C50C5D81A3E1309007B4383 /* LaunchScreen.xib */; };
+		3C50C5E61A3E1309007B4383 /* Bluemix_ViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C50C5E51A3E1309007B4383 /* Bluemix_ViewerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C50C5E01A3E1309007B4383 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C50C5C21A3E1308007B4383 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C50C5C91A3E1308007B4383;
+			remoteInfo = "Bluemix Viewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C50C5CA1A3E1308007B4383 /* Bluemix Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bluemix Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C50C5CE1A3E1308007B4383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C50C5CF1A3E1308007B4383 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C50C5D11A3E1308007B4383 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C50C5D41A3E1309007B4383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C50C5D61A3E1309007B4383 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C50C5D91A3E1309007B4383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3C50C5DF1A3E1309007B4383 /* Bluemix ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bluemix ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C50C5E41A3E1309007B4383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C50C5E51A3E1309007B4383 /* Bluemix_ViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluemix_ViewerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C50C5C71A3E1308007B4383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C50C5DC1A3E1309007B4383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C50C5C11A3E1308007B4383 = {
+			isa = PBXGroup;
+			children = (
+				3C50C5CC1A3E1308007B4383 /* Bluemix Viewer */,
+				3C50C5E21A3E1309007B4383 /* Bluemix ViewerTests */,
+				3C50C5CB1A3E1308007B4383 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C50C5CB1A3E1308007B4383 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C50C5CA1A3E1308007B4383 /* Bluemix Viewer.app */,
+				3C50C5DF1A3E1309007B4383 /* Bluemix ViewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C50C5CC1A3E1308007B4383 /* Bluemix Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				3C50C5CF1A3E1308007B4383 /* AppDelegate.swift */,
+				3C50C5D11A3E1308007B4383 /* ViewController.swift */,
+				3C50C5D31A3E1309007B4383 /* Main.storyboard */,
+				3C50C5D61A3E1309007B4383 /* Images.xcassets */,
+				3C50C5D81A3E1309007B4383 /* LaunchScreen.xib */,
+				3C50C5CD1A3E1308007B4383 /* Supporting Files */,
+			);
+			path = "Bluemix Viewer";
+			sourceTree = "<group>";
+		};
+		3C50C5CD1A3E1308007B4383 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C50C5CE1A3E1308007B4383 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C50C5E21A3E1309007B4383 /* Bluemix ViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C50C5E51A3E1309007B4383 /* Bluemix_ViewerTests.swift */,
+				3C50C5E31A3E1309007B4383 /* Supporting Files */,
+			);
+			path = "Bluemix ViewerTests";
+			sourceTree = "<group>";
+		};
+		3C50C5E31A3E1309007B4383 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C50C5E41A3E1309007B4383 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C50C5C91A3E1308007B4383 /* Bluemix Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C50C5E91A3E1309007B4383 /* Build configuration list for PBXNativeTarget "Bluemix Viewer" */;
+			buildPhases = (
+				3C50C5C61A3E1308007B4383 /* Sources */,
+				3C50C5C71A3E1308007B4383 /* Frameworks */,
+				3C50C5C81A3E1308007B4383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bluemix Viewer";
+			productName = "Bluemix Viewer";
+			productReference = 3C50C5CA1A3E1308007B4383 /* Bluemix Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C50C5DE1A3E1309007B4383 /* Bluemix ViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C50C5EC1A3E1309007B4383 /* Build configuration list for PBXNativeTarget "Bluemix ViewerTests" */;
+			buildPhases = (
+				3C50C5DB1A3E1309007B4383 /* Sources */,
+				3C50C5DC1A3E1309007B4383 /* Frameworks */,
+				3C50C5DD1A3E1309007B4383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C50C5E11A3E1309007B4383 /* PBXTargetDependency */,
+			);
+			name = "Bluemix ViewerTests";
+			productName = "Bluemix ViewerTests";
+			productReference = 3C50C5DF1A3E1309007B4383 /* Bluemix ViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C50C5C21A3E1308007B4383 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Garrett Rowe";
+				TargetAttributes = {
+					3C50C5C91A3E1308007B4383 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					3C50C5DE1A3E1309007B4383 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 3C50C5C91A3E1308007B4383;
+					};
+				};
+			};
+			buildConfigurationList = 3C50C5C51A3E1308007B4383 /* Build configuration list for PBXProject "Bluemix Viewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C50C5C11A3E1308007B4383;
+			productRefGroup = 3C50C5CB1A3E1308007B4383 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C50C5C91A3E1308007B4383 /* Bluemix Viewer */,
+				3C50C5DE1A3E1309007B4383 /* Bluemix ViewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C50C5C81A3E1308007B4383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C50C5D51A3E1309007B4383 /* Main.storyboard in Resources */,
+				3C50C5DA1A3E1309007B4383 /* LaunchScreen.xib in Resources */,
+				3C50C5D71A3E1309007B4383 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C50C5DD1A3E1309007B4383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C50C5C61A3E1308007B4383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C50C5D21A3E1308007B4383 /* ViewController.swift in Sources */,
+				3C50C5D01A3E1308007B4383 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C50C5DB1A3E1309007B4383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C50C5E61A3E1309007B4383 /* Bluemix_ViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C50C5E11A3E1309007B4383 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C50C5C91A3E1308007B4383 /* Bluemix Viewer */;
+			targetProxy = 3C50C5E01A3E1309007B4383 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C50C5D31A3E1309007B4383 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C50C5D41A3E1309007B4383 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C50C5D81A3E1309007B4383 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C50C5D91A3E1309007B4383 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C50C5E71A3E1309007B4383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C50C5E81A3E1309007B4383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C50C5EA1A3E1309007B4383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bluemix Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C50C5EB1A3E1309007B4383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bluemix Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C50C5ED1A3E1309007B4383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bluemix ViewerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bluemix Viewer.app/Bluemix Viewer";
+			};
+			name = Debug;
+		};
+		3C50C5EE1A3E1309007B4383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bluemix ViewerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bluemix Viewer.app/Bluemix Viewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C50C5C51A3E1308007B4383 /* Build configuration list for PBXProject "Bluemix Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C50C5E71A3E1309007B4383 /* Debug */,
+				3C50C5E81A3E1309007B4383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C50C5E91A3E1309007B4383 /* Build configuration list for PBXNativeTarget "Bluemix Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C50C5EA1A3E1309007B4383 /* Debug */,
+				3C50C5EB1A3E1309007B4383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C50C5EC1A3E1309007B4383 /* Build configuration list for PBXNativeTarget "Bluemix ViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C50C5ED1A3E1309007B4383 /* Debug */,
+				3C50C5EE1A3E1309007B4383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C50C5C21A3E1308007B4383 /* Project object */;
+}
