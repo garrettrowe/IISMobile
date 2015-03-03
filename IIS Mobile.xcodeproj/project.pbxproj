@@ -10,9 +10,19 @@
 		3C50C5D01A3E1308007B4383 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C50C5CF1A3E1308007B4383 /* AppDelegate.swift */; };
 		3C50C5D21A3E1308007B4383 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C50C5D11A3E1308007B4383 /* ViewController.swift */; };
 		3C50C5D51A3E1309007B4383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C50C5D31A3E1309007B4383 /* Main.storyboard */; };
-		3C50C5D71A3E1309007B4383 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C50C5D61A3E1309007B4383 /* Images.xcassets */; };
-		3C50C5DA1A3E1309007B4383 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C50C5D81A3E1309007B4383 /* LaunchScreen.xib */; };
-		3C50C5E61A3E1309007B4383 /* Bluemix_ViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C50C5E51A3E1309007B4383 /* Bluemix_ViewerTests.swift */; };
+		3C50C5E61A3E1309007B4383 /* IIS_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C50C5E51A3E1309007B4383 /* IIS_MobileTests.swift */; };
+		3C66F4861A9DA12F0052702B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C66F4851A9DA12F0052702B /* Images.xcassets */; };
+		3C66F48A1A9DA56C0052702B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3C66F4891A9DA56B0052702B /* Settings.bundle */; };
+		3C66F49C1A9EEB790052702B /* IBMBluemix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C66F49B1A9EEB790052702B /* IBMBluemix.framework */; };
+		3C66F49E1A9EEB830052702B /* IBMPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C66F49D1A9EEB830052702B /* IBMPush.framework */; };
+		3C66F4A41A9EFACD0052702B /* IBMPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C66F49D1A9EEB830052702B /* IBMPush.framework */; };
+		3C66F4A51A9EFACF0052702B /* IBMBluemix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C66F49B1A9EEB790052702B /* IBMBluemix.framework */; };
+		3C66F4A81A9EFF600052702B /* IBMCloudCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C66F4A71A9EFF600052702B /* IBMCloudCode.framework */; };
+		3C66F4AA1A9F023A0052702B /* IBM_Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66F4A91A9F023A0052702B /* IBM_Config.swift */; };
+		3C66F4AC1A9F02A50052702B /* IBM_Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66F4AB1A9F02A50052702B /* IBM_Item.swift */; };
+		3C66F4AE1A9F02F60052702B /* IBMData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C66F4AD1A9F02F60052702B /* IBMData.framework */; };
+		3C66F4B01A9F04100052702B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C66F4AF1A9F04100052702B /* libsqlite3.dylib */; };
+		3CBC336A1A9F06E500C2B3B9 /* bluelist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CBC33691A9F06E500C2B3B9 /* bluelist.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +36,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3C50C5CA1A3E1308007B4383 /* Bluemix Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bluemix Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C50C5CA1A3E1308007B4383 /* IIS Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IIS Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C50C5CE1A3E1308007B4383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C50C5CF1A3E1308007B4383 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C50C5D11A3E1308007B4383 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C50C5D41A3E1309007B4383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3C50C5D61A3E1309007B4383 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3C50C5D91A3E1309007B4383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		3C50C5DF1A3E1309007B4383 /* Bluemix ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bluemix ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C50C5DF1A3E1309007B4383 /* IIS MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IIS MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C50C5E41A3E1309007B4383 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C50C5E51A3E1309007B4383 /* Bluemix_ViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluemix_ViewerTests.swift; sourceTree = "<group>"; };
+		3C50C5E51A3E1309007B4383 /* IIS_MobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IIS_MobileTests.swift; sourceTree = "<group>"; };
+		3C66F4851A9DA12F0052702B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C66F4891A9DA56B0052702B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		3C66F49B1A9EEB790052702B /* IBMBluemix.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMBluemix.framework; path = ../../../../Library/Frameworks/IBMBluemix.framework; sourceTree = "<group>"; };
+		3C66F49D1A9EEB830052702B /* IBMPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMPush.framework; path = ../../../../Library/Frameworks/IBMPush.framework; sourceTree = "<group>"; };
+		3C66F4A01A9EEC7B0052702B /* Bridging-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-header.h"; sourceTree = "<group>"; };
+		3C66F4A71A9EFF600052702B /* IBMCloudCode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMCloudCode.framework; path = ../../../../Library/Frameworks/IBMCloudCode.framework; sourceTree = "<group>"; };
+		3C66F4A91A9F023A0052702B /* IBM_Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBM_Config.swift; sourceTree = "<group>"; };
+		3C66F4AB1A9F02A50052702B /* IBM_Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBM_Item.swift; sourceTree = "<group>"; };
+		3C66F4AD1A9F02F60052702B /* IBMData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMData.framework; path = ../../../../Library/Frameworks/IBMData.framework; sourceTree = "<group>"; };
+		3C66F4AF1A9F04100052702B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		3CBC33691A9F06E500C2B3B9 /* bluelist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = bluelist.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +62,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C66F4B01A9F04100052702B /* libsqlite3.dylib in Frameworks */,
+				3C66F49C1A9EEB790052702B /* IBMBluemix.framework in Frameworks */,
+				3C66F4A81A9EFF600052702B /* IBMCloudCode.framework in Frameworks */,
+				3C66F49E1A9EEB830052702B /* IBMPush.framework in Frameworks */,
+				3C66F4AE1A9F02F60052702B /* IBMData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C66F4A41A9EFACD0052702B /* IBMPush.framework in Frameworks */,
+				3C66F4A51A9EFACF0052702B /* IBMBluemix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,8 +85,10 @@
 		3C50C5C11A3E1308007B4383 = {
 			isa = PBXGroup;
 			children = (
-				3C50C5CC1A3E1308007B4383 /* Bluemix Viewer */,
-				3C50C5E21A3E1309007B4383 /* Bluemix ViewerTests */,
+				3C66F4A91A9F023A0052702B /* IBM_Config.swift */,
+				3C66F49A1A9EEB540052702B /* Frameworks */,
+				3C50C5CC1A3E1308007B4383 /* IIS Mobile */,
+				3C50C5E21A3E1309007B4383 /* IIS MobileTests */,
 				3C50C5CB1A3E1308007B4383 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,23 +96,26 @@
 		3C50C5CB1A3E1308007B4383 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C50C5CA1A3E1308007B4383 /* Bluemix Viewer.app */,
-				3C50C5DF1A3E1309007B4383 /* Bluemix ViewerTests.xctest */,
+				3C50C5CA1A3E1308007B4383 /* IIS Mobile.app */,
+				3C50C5DF1A3E1309007B4383 /* IIS MobileTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3C50C5CC1A3E1308007B4383 /* Bluemix Viewer */ = {
+		3C50C5CC1A3E1308007B4383 /* IIS Mobile */ = {
 			isa = PBXGroup;
 			children = (
+				3C66F4AB1A9F02A50052702B /* IBM_Item.swift */,
 				3C50C5CF1A3E1308007B4383 /* AppDelegate.swift */,
 				3C50C5D11A3E1308007B4383 /* ViewController.swift */,
 				3C50C5D31A3E1309007B4383 /* Main.storyboard */,
-				3C50C5D61A3E1309007B4383 /* Images.xcassets */,
-				3C50C5D81A3E1309007B4383 /* LaunchScreen.xib */,
+				3C66F4851A9DA12F0052702B /* Images.xcassets */,
 				3C50C5CD1A3E1308007B4383 /* Supporting Files */,
+				3C66F4891A9DA56B0052702B /* Settings.bundle */,
+				3C66F4A01A9EEC7B0052702B /* Bridging-header.h */,
+				3CBC33691A9F06E500C2B3B9 /* bluelist.plist */,
 			);
-			path = "Bluemix Viewer";
+			path = "IIS Mobile";
 			sourceTree = "<group>";
 		};
 		3C50C5CD1A3E1308007B4383 /* Supporting Files */ = {
@@ -95,13 +126,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3C50C5E21A3E1309007B4383 /* Bluemix ViewerTests */ = {
+		3C50C5E21A3E1309007B4383 /* IIS MobileTests */ = {
 			isa = PBXGroup;
 			children = (
-				3C50C5E51A3E1309007B4383 /* Bluemix_ViewerTests.swift */,
+				3C50C5E51A3E1309007B4383 /* IIS_MobileTests.swift */,
 				3C50C5E31A3E1309007B4383 /* Supporting Files */,
 			);
-			path = "Bluemix ViewerTests";
+			path = "IIS MobileTests";
 			sourceTree = "<group>";
 		};
 		3C50C5E31A3E1309007B4383 /* Supporting Files */ = {
@@ -112,12 +143,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3C66F49A1A9EEB540052702B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C66F4AF1A9F04100052702B /* libsqlite3.dylib */,
+				3C66F4AD1A9F02F60052702B /* IBMData.framework */,
+				3C66F4A71A9EFF600052702B /* IBMCloudCode.framework */,
+				3C66F49D1A9EEB830052702B /* IBMPush.framework */,
+				3C66F49B1A9EEB790052702B /* IBMBluemix.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3C50C5C91A3E1308007B4383 /* Bluemix Viewer */ = {
+		3C50C5C91A3E1308007B4383 /* IIS Mobile */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C50C5E91A3E1309007B4383 /* Build configuration list for PBXNativeTarget "Bluemix Viewer" */;
+			buildConfigurationList = 3C50C5E91A3E1309007B4383 /* Build configuration list for PBXNativeTarget "IIS Mobile" */;
 			buildPhases = (
 				3C50C5C61A3E1308007B4383 /* Sources */,
 				3C50C5C71A3E1308007B4383 /* Frameworks */,
@@ -127,14 +170,14 @@
 			);
 			dependencies = (
 			);
-			name = "Bluemix Viewer";
+			name = "IIS Mobile";
 			productName = "Bluemix Viewer";
-			productReference = 3C50C5CA1A3E1308007B4383 /* Bluemix Viewer.app */;
+			productReference = 3C50C5CA1A3E1308007B4383 /* IIS Mobile.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3C50C5DE1A3E1309007B4383 /* Bluemix ViewerTests */ = {
+		3C50C5DE1A3E1309007B4383 /* IIS MobileTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C50C5EC1A3E1309007B4383 /* Build configuration list for PBXNativeTarget "Bluemix ViewerTests" */;
+			buildConfigurationList = 3C50C5EC1A3E1309007B4383 /* Build configuration list for PBXNativeTarget "IIS MobileTests" */;
 			buildPhases = (
 				3C50C5DB1A3E1309007B4383 /* Sources */,
 				3C50C5DC1A3E1309007B4383 /* Frameworks */,
@@ -145,9 +188,9 @@
 			dependencies = (
 				3C50C5E11A3E1309007B4383 /* PBXTargetDependency */,
 			);
-			name = "Bluemix ViewerTests";
+			name = "IIS MobileTests";
 			productName = "Bluemix ViewerTests";
-			productReference = 3C50C5DF1A3E1309007B4383 /* Bluemix ViewerTests.xctest */;
+			productReference = 3C50C5DF1A3E1309007B4383 /* IIS MobileTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -156,19 +199,25 @@
 		3C50C5C21A3E1308007B4383 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = "";
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Garrett Rowe";
 				TargetAttributes = {
 					3C50C5C91A3E1308007B4383 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = GN328RDGFD;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					3C50C5DE1A3E1309007B4383 = {
 						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 3C50C5C91A3E1308007B4383;
 					};
 				};
 			};
-			buildConfigurationList = 3C50C5C51A3E1308007B4383 /* Build configuration list for PBXProject "Bluemix Viewer" */;
+			buildConfigurationList = 3C50C5C51A3E1308007B4383 /* Build configuration list for PBXProject "IIS Mobile" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +230,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3C50C5C91A3E1308007B4383 /* Bluemix Viewer */,
-				3C50C5DE1A3E1309007B4383 /* Bluemix ViewerTests */,
+				3C50C5C91A3E1308007B4383 /* IIS Mobile */,
+				3C50C5DE1A3E1309007B4383 /* IIS MobileTests */,
 			);
 		};
 /* End PBXProject section */
@@ -192,9 +241,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CBC336A1A9F06E500C2B3B9 /* bluelist.plist in Resources */,
 				3C50C5D51A3E1309007B4383 /* Main.storyboard in Resources */,
-				3C50C5DA1A3E1309007B4383 /* LaunchScreen.xib in Resources */,
-				3C50C5D71A3E1309007B4383 /* Images.xcassets in Resources */,
+				3C66F4861A9DA12F0052702B /* Images.xcassets in Resources */,
+				3C66F48A1A9DA56C0052702B /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C66F4AA1A9F023A0052702B /* IBM_Config.swift in Sources */,
 				3C50C5D21A3E1308007B4383 /* ViewController.swift in Sources */,
 				3C50C5D01A3E1308007B4383 /* AppDelegate.swift in Sources */,
+				3C66F4AC1A9F02A50052702B /* IBM_Item.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C50C5E61A3E1309007B4383 /* Bluemix_ViewerTests.swift in Sources */,
+				3C50C5E61A3E1309007B4383 /* IIS_MobileTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +282,7 @@
 /* Begin PBXTargetDependency section */
 		3C50C5E11A3E1309007B4383 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3C50C5C91A3E1308007B4383 /* Bluemix Viewer */;
+			target = 3C50C5C91A3E1308007B4383 /* IIS Mobile */;
 			targetProxy = 3C50C5E01A3E1309007B4383 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -242,14 +294,6 @@
 				3C50C5D41A3E1309007B4383 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3C50C5D81A3E1309007B4383 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C50C5D91A3E1309007B4383 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -272,6 +316,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: GARRETT A Rowe (87HUC493BE)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -315,7 +360,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: GARRETT A Rowe";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -338,9 +384,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Bluemix Viewer/Info.plist";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/IIS Mobile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "IIS Mobile";
+				PROVISIONING_PROFILE = "cb1d61ac-8c1f-402e-a899-d92d17d6dd8d";
+				SWIFT_OBJC_BRIDGING_HEADER = "IIS Mobile/Bridging-header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -348,50 +406,60 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Bluemix Viewer/Info.plist";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/IIS Mobile/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "IIS Mobile";
+				PROVISIONING_PROFILE = "cb1d61ac-8c1f-402e-a899-d92d17d6dd8d";
+				SWIFT_OBJC_BRIDGING_HEADER = "IIS Mobile/Bridging-header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		3C50C5ED1A3E1309007B4383 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Bluemix ViewerTests/Info.plist";
+				INFOPLIST_FILE = "IIS MobileTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bluemix Viewer.app/Bluemix Viewer";
+				PRODUCT_NAME = "IIS MobileTests";
 			};
 			name = Debug;
 		};
 		3C50C5EE1A3E1309007B4383 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
-				INFOPLIST_FILE = "Bluemix ViewerTests/Info.plist";
+				INFOPLIST_FILE = "IIS MobileTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bluemix Viewer.app/Bluemix Viewer";
+				PRODUCT_NAME = "IIS MobileTests";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3C50C5C51A3E1308007B4383 /* Build configuration list for PBXProject "Bluemix Viewer" */ = {
+		3C50C5C51A3E1308007B4383 /* Build configuration list for PBXProject "IIS Mobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C50C5E71A3E1309007B4383 /* Debug */,
@@ -400,21 +468,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C50C5E91A3E1309007B4383 /* Build configuration list for PBXNativeTarget "Bluemix Viewer" */ = {
+		3C50C5E91A3E1309007B4383 /* Build configuration list for PBXNativeTarget "IIS Mobile" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C50C5EA1A3E1309007B4383 /* Debug */,
 				3C50C5EB1A3E1309007B4383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3C50C5EC1A3E1309007B4383 /* Build configuration list for PBXNativeTarget "Bluemix ViewerTests" */ = {
+		3C50C5EC1A3E1309007B4383 /* Build configuration list for PBXNativeTarget "IIS MobileTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C50C5ED1A3E1309007B4383 /* Debug */,
 				3C50C5EE1A3E1309007B4383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
