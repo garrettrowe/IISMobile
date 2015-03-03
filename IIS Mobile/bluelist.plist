@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>applicationId</key>
+        <string>997926d2-186f-4369-a98d-06d2c1437957</string>
+        <key>applicationSecret</key>
+        <string>e4872e13c4850f31751ffbfde33feaf38ff198aa</string>
+        <key>applicationRoute</key>
+        <string>http://infocloud.mybluemix.net</string>
+    </dict>
+</plist>
